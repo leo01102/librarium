@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Leo\Documents\Universidad\UNLaR\ISI\3a %282024%29\Programación II\Teoría\TPs\5\versions\ver2\inventarioLibreria\inventarioLibreria\My Project\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\FormReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Formulario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormAjustes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormLibros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
