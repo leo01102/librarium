@@ -8,16 +8,16 @@ El sistema permite gestionar el stock de libros, ventas, clientes, proveedores, 
 
 Para instalar este sistema en tu computadora, sigue los siguientes pasos:
 
-1. Descarga [XAMPP](https://www.apachefriends.org/es/download.html).
+1. Descarga <a href="https://www.apachefriends.org/es/download.html" target="_blank">XAMPP</a>.
 
 2. Configurar la base de datos:
-   - Descarga el archivo `.sql` en [GitHub releases](https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0).
+   - Descarga el archivo `.sql` en <a href="https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0" target="_blank">GitHub releases</a>.
    - Abre el **Panel de Control de XAMPP** y asegúrate de que **Apache** y **MySQL** están corriendo.
    - Accede a **phpMyAdmin** haciendo click en el botón Admin que está al lado del botón Start de MySQL, o a través de tu navegador (normalmente en `http://localhost/phpmyadmin`).
    - Crea una nueva base de datos con el nombre `libreria.sql`.
    - Importa el archivo `.sql` descargado dentro de esta base de datos usando la opción "Importar" en phpMyAdmin.
 
-3. Descarga e instala el ejecutable `Inventario.de.Libreria.exe` en [GitHub releases](https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0).
+3. Descarga e instala el ejecutable `Inventario.de.Libreria.exe` en <a href="https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0" target="_blank">GitHub releases</a>.
 
 Si quieres hacerlo desde Visual Studio, sigue estos pasos:
 
@@ -31,7 +31,7 @@ Si quieres hacerlo desde Visual Studio, sigue estos pasos:
     - `MySql.Data`
     - `ClosedXML`
     - `ReaLTaiizor`
-    - `HopeCustom` (disponible en [nuget.org](https://www.nuget.org/packages/HopeCustom))
+    - `HopeCustom` (disponible en <a href="https://www.nuget.org/packages/HopeCustom" target="_blank">nuget.org</a>)
     - `FontAwesome.Sharp`
 3. Configura la base de datos MySQL utilizando el script de base de datos proporcionado en el directorio `/database/`.
 4. Compila y ejecuta el proyecto en Visual Studio.
@@ -74,7 +74,7 @@ El sistema está diseñado usando una arquitectura modular basada en POO, lo que
   - `Controles`: Utilidades para gestionar y validar controles en formularios.
 
 ![diagrama_de_clase_sistema](https://github.com/user-attachments/assets/bef1f5f0-f9a6-46f7-ab3a-d02231a534b4)
-Diagrama de clase del sistema completo [aquí](https://drive.google.com/file/d/14gJoJVZVyoOr5P54fZYfxGXoPjOmvVz9/view).
+Diagrama de clase del sistema completo <a href="https://drive.google.com/file/d/14gJoJVZVyoOr5P54fZYfxGXoPjOmvVz9/view" target="_blank">aquí</a>.
 
 ## Licencia
 
