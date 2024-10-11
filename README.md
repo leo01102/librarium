@@ -17,14 +17,14 @@ Para instalar este sistema en tu computadora, sigue los siguientes pasos:
    - Crea una nueva base de datos con el nombre `libreria.sql`.
    - Importa el archivo `.sql` descargado dentro de esta base de datos usando la opción "Importar" en phpMyAdmin.
 
-3. Descarga e instala el ejecutable en [GitHub releases](https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0).
+3. Descarga e instala el ejecutable `Inventario.de.Libreria.exe` en [GitHub releases](https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0).
 
 Si quieres hacerlo desde Visual Studio, sigue estos pasos:
 
 1. Clona el repositorio:
 
    ```sh
-    git clone https://github.com/usuario/repositorio.git
+    git clone https://github.com/rearteleonardo/inventario-libreria.git
     ```
     
 2. Asegúrate de tener instalados los siguientes paquetes NuGet:
