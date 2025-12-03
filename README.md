@@ -58,23 +58,7 @@ Una vez instalado, sigue estos pasos para navegar por la aplicación:
 
 ## Arquitectura del sistema
 
-El sistema está diseñado usando una arquitectura modular basada en POO, lo que permite la fácil escalabilidad y mantenibilidad.
-
-- **Clases**:
-  - `Database`: Gestión de la conexión y operaciones con la base de datos.
-  - `Dashboard`: Gestión de los datos estadísticos de ventas, clientes, libros, etc.
-  - `Login`: Autenticación de usuarios con contraseñas encriptadas.
-  - `Ajustes`: Gestión de usuarios y contraseñas.
-
-- **Interfaz**:
-  - `IDatabase`: Define métodos para conectar con la base de datos, insertar, editar y eliminar registros.
-  - `IDataGridView`: Métodos para exportar datos desde un DataGridView a formatos XLSX y CSV.
-
-- **Módulos**:
-  - `Controles`: Utilidades para gestionar y validar controles en formularios.
-
-![diagrama_de_clase_sistema](https://github.com/user-attachments/assets/bef1f5f0-f9a6-46f7-ab3a-d02231a534b4)
-Diagrama de clase del sistema completo <a href="https://drive.google.com/file/d/14gJoJVZVyoOr5P54fZYfxGXoPjOmvVz9/view">aquí</a>.
+El sistema está diseñado usando una arquitectura modular basada en POO. Para ver los detalles técnicos, descripción de clases y diagrama de arquitectura, consulta la [Documentación Técnica](docs/technical-docs.md).
 
 ## Licencia
 
