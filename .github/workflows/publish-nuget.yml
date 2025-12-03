@@ -1,0 +1,36 @@
+name: Publish NuGet Package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'HopeCustom/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore HopeCustom/HopeCustom/HopeCustom.csproj
+
+    - name: Build
+      run: dotnet build HopeCustom/HopeCustom/HopeCustom.csproj --configuration Release --no-restore
+
+    - name: Pack
+      run: dotnet pack HopeCustom/HopeCustom/HopeCustom.csproj --configuration Release --no-build --output .
+
+    - name: Publish to GitHub Packages
+      run: dotnet nuget push *.nupkg --source "https://nuget.pkg.github.com/leo01102/index.json" --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate

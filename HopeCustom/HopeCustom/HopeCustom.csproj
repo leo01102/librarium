@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HopeCustom</Title>
+    <Description>HopeTextBox with HoverBorderColor.
+HopeRichTextBox with custom back and FillPath colors.
+HopeNumeric with ValueChanged event.
+AloneComboBox with custom height and back color.</Description>
+    <Version>1.0.4</Version>
+    <RootNamespace>HopeCustom</RootNamespace>
+  </PropertyGroup>
+
+</Project>
