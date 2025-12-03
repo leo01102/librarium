@@ -1,4 +1,4 @@
-# Sistema de Inventario de Librería
+# Librarium
 
 Este proyecto es un sistema de inventario para gestionar librerías, desarrollado como Trabajo Final para la cátedra de teoría de **Programación II**, a cargo del Profesor Titular Mg. Ms. Lic. Marcelo Fabio Roldán y el Ayudante de Primera Gustavo Saavedra, correspondiente a la carrera Ingeniería en Sistemas de Información en la **Universidad Nacional de La Rioja**.
 
@@ -11,20 +11,20 @@ Para instalar este sistema en tu computadora, sigue los siguientes pasos:
 1. Descarga <a href="https://www.apachefriends.org/es/download.html">XAMPP</a>.
 
 2. Configurar la base de datos:
-   - Descarga el archivo `.sql` en <a href="https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0">GitHub releases</a>.
+   - Descarga el archivo `.sql` en <a href="https://github.com/leo01102/librarium/releases/tag/v1.0.0">GitHub releases</a>.
    - Abre el **Panel de Control de XAMPP** y asegúrate de que **Apache** y **MySQL** están corriendo.
    - Accede a **phpMyAdmin** haciendo click en el botón Admin que está al lado del botón Start de MySQL, o a través de tu navegador (normalmente en `http://localhost/phpmyadmin`).
    - Crea una nueva base de datos con el nombre `libreria.sql`.
    - Importa el archivo `.sql` descargado dentro de esta base de datos usando la opción "Importar" en phpMyAdmin.
 
-3. Descarga e instala el ejecutable `Inventario.de.Libreria.exe` en <a href="https://github.com/rearteleonardo/inventario-libreria/releases/tag/v1.0.0">GitHub releases</a>.
+3. Descarga e instala el ejecutable `Inventario.de.Libreria.exe` en <a href="https://github.com/leo01102/librarium/releases/tag/v1.0.0">GitHub releases</a>.
 
 Si quieres hacerlo desde Visual Studio, sigue estos pasos:
 
 1. Clona el repositorio:
 
    ```sh
-    git clone https://github.com/rearteleonardo/inventario-libreria.git
+   git clone https://github.com/leo01102/librarium.git
     ```
     
 2. Asegúrate de tener instalados los siguientes paquetes NuGet:
@@ -78,7 +78,7 @@ Diagrama de clase del sistema completo <a href="https://drive.google.com/file/d/
 
 ## Licencia
 
-Este proyecto no tiene licencia.
+Este proyecto está bajo la Licencia MIT.
 
 ## Créditos
 
