@@ -31,7 +31,7 @@ Si quieres hacerlo desde Visual Studio, sigue estos pasos:
     - `MySql.Data`
     - `ClosedXML`
     - `ReaLTaiizor`
-    - `HopeCustom` (disponible en <a href="https://www.nuget.org/packages/HopeCustom">nuget.org</a>)
+    - `HopeCustom` (incluido en el repositorio en la carpeta `HopeCustom`)
     - `FontAwesome.Sharp`
 3. Configura la base de datos MySQL utilizando el script de base de datos proporcionado en el directorio `/database/`.
 4. Compila y ejecuta el proyecto en Visual Studio.
